@@ -1,0 +1,379 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body header {
+  width: 100vw;
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+body header div.left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+body header div.left ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header div.left ul li {
+  padding: 0.5rem;
+}
+
+body header div.left ul li a {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  text-decoration: none;
+  color: black;
+}
+
+body header div.left ul li a:hover {
+  text-decoration: underline;
+}
+
+body header div.right {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header div.right ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header div.right ul li {
+  padding: 0.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header div.right ul li a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+}
+
+body header div.right ul li a:hover {
+  text-decoration: underline;
+}
+
+body header div.right ul li a img.grid {
+  width: 18px;
+  height: 18px;
+  opacity: 0.5;
+}
+
+body header div.right ul li a img.grid:hover {
+  opacity: 1;
+}
+
+body header div.right ul li button.login {
+  width: 55px;
+  height: 30px;
+  background-color: #3673f7;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+body main {
+  padding-bottom: 200px;
+  width: 100vw;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main img {
+  padding-top: 2rem;
+}
+
+body main div.search {
+  width: 550px;
+  height: 45px;
+  border: 0.5px solid #b4b4b4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  position: relative;
+}
+
+body main div.search:hover {
+  -webkit-box-shadow: 0px 1px 2px 1 px lightgray;
+          box-shadow: 0px 1px 2px 1 px lightgray;
+}
+
+body main div.search i {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #c9c8c8;
+}
+
+body main div.search input {
+  width: 480px;
+  height: 40px;
+  position: absolute;
+  left: 50px;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  border: none;
+  outline: none;
+}
+
+body main div button.left {
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 3px;
+}
+
+body main div button.right {
+  width: 75px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 3px;
+}
+
+body main div button:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dbdbdb;
+}
+
+body footer {
+  color: #727272;
+  width: 100vw;
+  min-height: 12vh;
+  background-color: #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer div.taiwan {
+  height: 6vh;
+  padding: 0.5rem 0 0.5rem 2rem;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+body footer div.bottom {
+  font-size: 0.85rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 6vh;
+}
+
+body footer div.bottom section.left {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer div.bottom section.left ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer div.bottom section.left ul li {
+  padding: 0.5rem 0 0.5rem 2rem;
+}
+
+body footer div.bottom section.left ul li a {
+  text-decoration: none;
+  color: #727272;
+}
+
+body footer div.bottom section.left ul li a:hover {
+  text-decoration: underline;
+}
+
+body footer div.bottom section.right {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer div.bottom section.right ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+body footer div.bottom section.right ul li {
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+}
+
+body footer div.bottom section.right ul li a {
+  text-decoration: none;
+  color: #727272;
+}
+
+body footer div.bottom section.right ul li a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 620px) {
+  body main div.search {
+    width: 80vw;
+    height: 40px;
+    border: 0.5px solid #b4b4b4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50px;
+  }
+  body main div.search i {
+    top: 10px;
+    left: 20px;
+    color: #c9c8c8;
+  }
+  body main div.search input {
+    width: 55vw;
+    height: 30px;
+    left: 50px;
+    font-size: 1.25rem;
+    border: none;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  body footer div.bottom {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body footer div.bottom section.left {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-right: 3.5rem;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer div.bottom section.right {
+    width: 100vw;
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body footer div.bottom section.right ul {
+    position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
